@@ -114,39 +114,39 @@ Use the AWS Console to configure the AWS EC2 Instance. The EC2 Instance will be 
 ### AWS EC2 Console
 Instances/Launch Instance
 
-### Choose AMI
+#### Choose AMI
 ```
 Amazon Linux AMI 2017.09.1 (HVM), SSD Volume Type - ami-97785bed
 ```  
 Select
 
-### Choose Instance Type
+#### Choose Instance Type
 ```
 t2.micro
 ```
 Next
 
-### Configure Instance
+#### Configure Instance
 Shutdown behavior  
 ```
 Terminate
 ```
 Next
 
-### Add Storage
+#### Add Storage
 Next
 
-### Add Tags
+#### Add Tags
 Next
 
-### Configure Security Group
+#### Configure Security Group
 Select an existing security group
 ```
 Use default
 ```
 Next
 
-### Review and Launch
+#### Review and Launch
 Launch  
 Select an existing key pair or create a new key pair  
 ```
@@ -155,7 +155,7 @@ Note:  acknowledge private key checkbox
 Launch Instance  
 View instances
 
-### Configure AMAZON AMI instance
+#### Configure AMAZON AMI instance
 
 You will need to ssh into your EC2 instance and complete the following configuration:
 
@@ -180,7 +180,7 @@ Modify requirements.txt
 sudo pip install -r ./requirements.txt
 ```
 
-## Run Import Script from AWS EC2 Instance
+#### Run Import Script from AWS EC2 Instance
 
 ```
 Using <Endpoint URL> from "AWS Elasticsearch Resources Created"
@@ -199,7 +199,7 @@ Use the Kabana Console to configure the index pattern and time filter.  This is 
 Using <Kibana URL> from "AWS Elasticsearch Resources Created"
 ```
 
-### Management View
+#### Management View
 Index name or pattern
 ```
 *
@@ -210,7 +210,7 @@ snapshotTimeIso
 ```
 Create
 
-#### Discover View
+##### Discover View
 Go to the Discover View to browse data
 
 
