@@ -1,5 +1,8 @@
 AWS Config Snapshots to AWS Elasticsearch
 ===================================================
+
+This solution shows how to automate the ingestion of your AWS Config snapshots into the ElasticSearch/Logstash/Kibana (ELK) stack for searching and mapping your AWS environments.  This readme updates an article "How to Analyze AWS Config Snapshots with ElasticSearch and Kibana by Vladimir Budilov" referenced below and provides a more basic step by step process.
+
 ## Configure AWS Config Service
 
 Use the AWS Console to configure the AWS Config Service.  This is a step by step process.
