@@ -174,9 +174,13 @@ Modify requirements.txt
    argparse
 
 sudo pip install -r ./requirements.txt
+```
+
+## Run Import Script from AWS EC2 Instance
 
 Using <Endpoint URL> from "AWS Elasticsearch Resources Created"
 
+```
 cd aws-config-to-elasticsearch/aws_config_to_es
 ./esingest.py --destination <Endpoint URL>:80 --verbose
 ```
