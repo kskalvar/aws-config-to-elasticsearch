@@ -155,7 +155,7 @@ Note:  acknowledge private key checkbox
 Launch Instance  
 View instances
 
-#### Configure AMAZON AMI instance
+### Configure AMAZON AMI instance
 
 You will need to ssh into your EC2 instance and complete the following configuration:
 
@@ -180,7 +180,7 @@ Modify requirements.txt
 sudo pip install -r ./requirements.txt
 ```
 
-#### Run Import Script from AWS EC2 Instance
+### Run Import Script from AWS EC2 Instance
 
 ```
 Using <Endpoint URL> from "AWS Elasticsearch Resources Created"
