@@ -87,8 +87,6 @@ Access policy
 Select a template pull-down  
 ```
 Allow open access to the domain
-```  
-```
 Note:  acknowledge risk pop-up
 ```  
 Next
@@ -97,7 +95,10 @@ Next
 Confirm
 
 #### AWS Elasticsearch Resources Created
-```<domain name>``` view displays your domain configuration status.  "Configuration state” shows the status of the just created domain and initially will display “Loading”.  Once it shows “Active” the domain will be ready to access.  Node configuration took 12 minutes to become active for this example.  
+
+```Using <domain name> from "AWS Elasticsearch Console Create a new domain"```
+
+The ```<domain name>``` view displays your domain configuration status.  "Configuration state” shows the status of the just created domain and initially will display “Loading”.  Once it shows “Active” the domain will be ready to access.  Node configuration took 12 minutes to become active for this example.  
 
 Of specific interest for this task are:  
 
