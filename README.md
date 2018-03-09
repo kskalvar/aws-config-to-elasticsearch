@@ -54,11 +54,10 @@ Use the AWS Console to configure the AWS Elasticsearch Service. This is a step b
 ### AWS Elasticsearch Console
 Create a new domain
 
-
 #### Define domain
 Elasticsearch domain name:  
 ```
-<domain name>
+aws-config-es
 ```    
 Elasticsearch version:  
 ```
@@ -76,7 +75,6 @@ Instance type:
 t2.small.elasticsearch
 ```  
 Next
-
 
 #### Set up access
 Network configuration  
@@ -96,15 +94,15 @@ Confirm
 
 #### AWS Elasticsearch Resources Created
 
-```Using <domain name> from "AWS Elasticsearch Console Create a new domain"```
+From the AWS Elasticsearch Console you will see ```aws-config-es``` domain configuration status.  "Configuration state” shows the status of the just created domain and initially will display “Loading”.  Once it shows “Active” the domain will be ready to access.  Node configuration took 12 minutes to become active for this example.  
 
-The ```<domain name>``` view displays your domain configuration status.  "Configuration state” shows the status of the just created domain and initially will display “Loading”.  Once it shows “Active” the domain will be ready to access.  Node configuration took 12 minutes to become active for this example.  
+Drill down to the ```aws-config-es``` domain and select the "Overview" tab.  
 
 Of specific interest for this task are:  
 
 ```
-"Endpoint: <Endpoint URL>" on the Overview tab is used when running the python aws_config_to_es script
-"Kibana: <Kibana URL>" on the Overview tab is used to access Kibana remotely
+"Endpoint: <Endpoint URL>"
+"Kibana: <Kibana URL>"
 ```
 
 ## Configure AWS EC2 Instance
