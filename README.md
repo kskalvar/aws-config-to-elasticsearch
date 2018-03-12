@@ -44,7 +44,8 @@ config-role-us-east-1
 ```    
 IAM Policies  
 ```
-Customer managed:  config-role-us-east-1_AWSConfigDeliveryPermissions_us-east-1
+Customer managed:
+config-role-us-east-1_AWSConfigDeliveryPermissions_us-east-1
 ```  
 
 ## Configure AWS Elasticsearch Service
